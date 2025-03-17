@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 import pandas as pd
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 from sklearn.ensemble import RandomForestClassifier
 
 class IrisSpecies(BaseModel):
